@@ -9,18 +9,18 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mathieu Fosse"]
-  s.date = %q{2010-03-26}
+  s.date = %q{2010-03-27}
   s.description = %q{Facebook Driver for Capybara}
   s.email = %q{mathieu@tigerlilyapps.com}
   s.extra_rdoc_files = [
     "LICENSE",
-     "README.rdoc"
+     "README.md"
   ]
   s.files = [
     ".document",
      ".gitignore",
      "LICENSE",
-     "README.rdoc",
+     "README.md",
      "Rakefile",
      "VERSION",
      "capybara-facebook.gemspec",
@@ -45,7 +45,7 @@ Gem::Specification.new do |s|
      "spec/views/with_scope.erb",
      "spec/views/with_simple_html.erb"
   ]
-  s.homepage = %q{http://github.com/pointcom/capybara-facebook}
+  s.homepage = %q{http://github.com/tigerlily/capybara-facebook}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.6}

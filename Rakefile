@@ -8,7 +8,7 @@ begin
     gem.summary = %Q{Facebook Driver for Capybara}
     gem.description = %Q{Facebook Driver for Capybara}
     gem.email = "mathieu@tigerlilyapps.com"
-    gem.homepage = "http://github.com/pointcom/capybara-facebook"
+    gem.homepage = "http://github.com/tigerlily/capybara-facebook"
     gem.authors = ["Mathieu Fosse"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
     gem.add_dependency "capybara", ">= 0.3.5"
