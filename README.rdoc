@@ -1,17 +1,15 @@
-capybara-facebook
-=================
+# capybara-facebook
 
 capybara-facebook is a Facebook Driver for Capybara. It aims to easily test a Facebook application in your integration tests.
 
 
-Installation
-------------
+## Installation
+
 
     $ [sudo] gem install capybara-facebook
 
 
-How to use it with Cucumber ?
------------------------------
+## How to use it with Cucumber ?
 
 Add these lines on your `features/support/env.rb` file : 
 
@@ -31,8 +29,7 @@ For instance you can add a Cucumber step like this one :
     end
     
 
-Note on Patches/Pull Requests
------------------------------
+## Note on Patches/Pull Requests
  
 * Fork the project.
 * Make your feature addition or bug fix.
@@ -42,7 +39,6 @@ Note on Patches/Pull Requests
   (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
 * Send me a pull request. Bonus points for topic branches.
 
-Copyright
----------
+## Copyright
 
 Copyright (c) 2010 Mathieu Fosse. See LICENSE for details.
