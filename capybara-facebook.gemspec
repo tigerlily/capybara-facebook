@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "capybara-facebook.gemspec",
      "config.ru",
      "lib/capybara-facebook.rb",
      "lib/capybara-facebook/cucumber.rb",

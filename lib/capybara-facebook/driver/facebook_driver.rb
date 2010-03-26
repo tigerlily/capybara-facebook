@@ -10,7 +10,7 @@ class Capybara::Driver::Facebook < Capybara::Driver::RackTest
     cache_body
   end
   
-  def merge_params!(params={})
+  def facebook_parameters!(params={})
     facebook_default_params.merge!(params)
   end
 

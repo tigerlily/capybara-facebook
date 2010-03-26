@@ -20,7 +20,7 @@ describe Capybara::Driver::Facebook do
     end
 
     it "should be able to add a param to Facebook default params" do
-      @driver.merge_params!({ :fb_sig_is_fan => "1" })
+      @driver.facebook_parameters!({ :fb_sig_is_fan => "1" })
       @driver.visit('/')
       query_hash = @driver.last_request.env["rack.request.query_hash"]
       query_hash.should have_key("fb_sig_is_fan")
@@ -28,7 +28,7 @@ describe Capybara::Driver::Facebook do
     end
 
     it "should be able to change a Facebook default param value" do
-      @driver.merge_params!({ :fb_sig_in_canvas => "0" })
+      @driver.facebook_parameters!({ :fb_sig_in_canvas => "0" })
       @driver.visit('/')
       
       @driver.last_request.env["rack.request.query_hash"].should include(*@default_keys)
