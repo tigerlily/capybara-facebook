@@ -5,14 +5,13 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "capybara-facebook"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
-    gem.email = "mathieu.fosse@gmail.com"
+    gem.summary = %Q{Facebook Driver for Capybara}
+    gem.description = %Q{Facebook Driver for Capybara}
+    gem.email = "mathieu@tigerlilyapps.com"
     gem.homepage = "http://github.com/pointcom/capybara-facebook"
-    gem.authors = ["pointcom"]
+    gem.authors = ["Mathieu Fosse"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
-    gem.add_development_dependency "cucumber", ">= 0"
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+    gem.add_dependency "capybara", ">= 0.3.5"
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError

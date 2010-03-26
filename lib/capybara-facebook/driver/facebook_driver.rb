@@ -1,3 +1,4 @@
+require 'capybara-facebook/driver/base'
 require 'capybara/driver/rack_test_driver'
 
 class Capybara::Driver::Facebook < Capybara::Driver::RackTest
