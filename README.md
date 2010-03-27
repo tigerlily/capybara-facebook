@@ -27,7 +27,19 @@ For instance you can add a Cucumber step like this one :
     Given /^I am logged in with Facebook uid "(\d+)"$/ do |facebook_uid|
       facebook_parameters!({ "fb_sig_user" => facebook_uid })
     end
-    
+
+And in your feature :
+
+	Feature: My Feature
+		@facebook
+		Scenario: My Scenario
+			Given I am logged in with Facebook uid "123456"
+			When I go to "the homepage"
+			Then I should see "Hello"
+		
+
+It's important to add the `@facebook` tag before your feature in order to switch on the Facebook Driver.
+
 
 ## Note on Patches/Pull Requests
  
